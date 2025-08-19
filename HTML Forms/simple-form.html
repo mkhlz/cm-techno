@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Feedback Form</title>
+</head>
+<body>
+    <h2>User Feedback Form</h2>
+    <!-- Form starts here -->
+    <form action="/submit-feedback" method="post">
+        
+        <!-- Input for user's name -->
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <!-- Input for user's email -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <!-- Dropdown for rating -->
+        <label for="rating">Rating:</label><br>
+        <select id="rating" name="rating" required>
+            <option value="">--Select--</option>
+            <option value="5">Excellent</option>
+            <option value="4">Good</option>
+            <option value="3">Average</option>
+            <option value="2">Poor</option>
+            <option value="1">Very Poor</option>
+        </select><br><br>
+        
+        <!-- Textarea for feedback message -->
+        <label for="message">Feedback:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+        
+        <!-- Submit button -->
+        <input type="submit" value="Submit Feedback">
+    </form>
+</body>
+</html>

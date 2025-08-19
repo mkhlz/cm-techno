@@ -1,0 +1,3 @@
+From Table,From Column,To Table,To Column,Relationship
+Fees,Student ID,Attendance,Student ID,One-to-Many
+Classes,Class ID,Attendance,Class ID,One-to-Many
