@@ -73,7 +73,8 @@ function Header({ onOpenEnquiry }) {
               className="px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg font-medium transition-all hover:scale-105 flex items-center space-x-2 shadow-md"
             >
               <Phone className="w-4 h-4" />
-              <span>Buy Now</span>
+              <span>Call Now</span>
+              <span className="">+91 8169809775</span>
             </a>
 
             <Button
@@ -130,7 +131,7 @@ function Header({ onOpenEnquiry }) {
                   className="block w-full px-4 py-3 bg-green-600 hover:bg-green-700 text-white rounded-lg font-medium transition-colors text-center"
                 >
                   <Phone className="w-4 h-4 inline mr-2" />
-                  Call Now
+                  Call Now (+91 8169809775)
                 </a>
 
                 <Button

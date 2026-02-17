@@ -190,17 +190,6 @@ function HomePage({ onOpenEnquiry }) {
         </div> */}
       </section>
 
-      {/* Floating WhatsApp Chat */}
-      <a
-        href="https://wa.me/918169809775?text=Hi%20CM%20Techno%20Solution"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="fixed bottom-4 right-4 z-50 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition-transform hover:scale-110"
-        aria-label="Chat on WhatsApp"
-      >
-        <MessageCircle className="w-6 h-6" />
-      </a>
-
       {/* Stats Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
