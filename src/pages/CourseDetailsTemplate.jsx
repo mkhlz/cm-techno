@@ -59,7 +59,7 @@ function CourseDetailsTemplate({ onOpenEnquiry }) {
       </div>
 
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white overflow-hidden">
+      <section className="relative pt-40 pb-20 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white overflow-hidden">
         <div className="absolute inset-0 bg-black/40 z-0"></div>
         <img 
           src={course.image} 

@@ -34,7 +34,7 @@ function ITCoursesPage({ onOpenEnquiry }) {
       </Helmet>
 
       {/* Hero Section */}
-      <section className="relative pt-32 pb-16 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white overflow-hidden">
+      <section className="relative pt-40 pb-16 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white overflow-hidden">
         <div className="absolute inset-0 bg-black/20 z-0"></div>
         <div className="container mx-auto px-4 relative z-10 text-center">
           <motion.div

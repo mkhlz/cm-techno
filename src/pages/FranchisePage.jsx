@@ -45,7 +45,7 @@ function FranchisePage() {
       </Helmet>
 
       {/* Hero Section */}
-      <section className="relative pt-32 pb-24 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white overflow-hidden">
+      <section className="relative pt-40 pb-24 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white overflow-hidden">
         <div className="absolute inset-0 bg-black/50 z-0"></div>
         <img 
           src="https://images.unsplash.com/photo-1695195274506-347ac4594ff5" 
