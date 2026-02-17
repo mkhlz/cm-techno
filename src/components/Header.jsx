@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Phone, MessageCircle, Send } from 'lucide-react';
+import { Menu, X, Phone, Send } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
@@ -75,15 +75,7 @@ function Header({ onOpenEnquiry }) {
               <Phone className="w-4 h-4" />
               <span>Buy Now</span>
             </a>
-            <a
-              href="https://wa.me/918169809775?text=Hi%20CM%20Techno%20Solution"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-4 py-2 bg-green-500 hover:bg-green-600 text-white rounded-lg font-medium transition-all hover:scale-105 flex items-center space-x-2 shadow-md"
-            >
-              <MessageCircle className="w-4 h-4" />
-              <span>WhatsApp</span>
-            </a>
+
             <Button
               onClick={onOpenEnquiry}
               className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium transition-all hover:scale-105 flex items-center space-x-2 shadow-md"
@@ -140,15 +132,7 @@ function Header({ onOpenEnquiry }) {
                   <Phone className="w-4 h-4 inline mr-2" />
                   Call Now
                 </a>
-                <a
-                  href="https://wa.me/918169809775?text=Hi%20CM%20Techno%20Solution"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block w-full px-4 py-3 bg-green-500 hover:bg-green-600 text-white rounded-lg font-medium transition-colors text-center"
-                >
-                  <MessageCircle className="w-4 h-4 inline mr-2" />
-                  WhatsApp
-                </a>
+
                 <Button
                   onClick={onOpenEnquiry}
                   className="w-full px-4 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium transition-colors"

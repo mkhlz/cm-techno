@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import { 
   Users, Award, TrendingUp, Code, Target, 
   BarChart, Rocket, CheckCircle, Star, ArrowRight,
-  Building2, ShoppingBag, LineChart
+  Building2, ShoppingBag, LineChart, MessageCircle
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -147,7 +147,7 @@ function HomePage({ onOpenEnquiry }) {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <div className="inline-block px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full border border-white/20 mb-6">
+            <div className="inline-block my-10 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full border border-white/20 mb-6">
               <span className="text-white text-sm font-medium">🚀 Empowering Careers & Growing Businesses</span>
             </div>
             
@@ -183,12 +183,23 @@ function HomePage({ onOpenEnquiry }) {
         </div>
 
         {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+        {/* <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
           <div className="w-6 h-10 border-2 border-white/50 rounded-full flex justify-center">
             <div className="w-1 h-3 bg-white rounded-full mt-2"></div>
           </div>
-        </div>
+        </div> */}
       </section>
+
+      {/* Floating WhatsApp Chat */}
+      <a
+        href="https://wa.me/918169809775?text=Hi%20CM%20Techno%20Solution"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-4 right-4 z-50 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition-transform hover:scale-110"
+        aria-label="Chat on WhatsApp"
+      >
+        <MessageCircle className="w-6 h-6" />
+      </a>
 
       {/* Stats Section */}
       <section className="py-16 bg-white">
