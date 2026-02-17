@@ -12,9 +12,9 @@ import { Button } from '@/components/ui/button';
 
 function HomePage({ onOpenEnquiry }) {
   const stats = [
-    { icon: Users, label: '500+ Students Trained', value: '500+' },
-    { icon: Award, label: '100+ Successful Projects', value: '100+' },
-    { icon: TrendingUp, label: '10+ Years Experience', value: '10+' },
+    { icon: Users, label: 'Over 20,000 Students Trained', value: '20,000+' },
+    { icon: Award, label: 'Total Courses', value: '15+' },
+    { icon: TrendingUp, label: 'Years Experience', value: '23+' },
     { icon: Star, label: '4.9/5 Rating', value: '4.9' }
   ];
 
