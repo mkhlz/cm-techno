@@ -1,0 +1,74 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Vite build output
+dist/
+dist-ssr/
+.vite/
+
+# Coverage directory
+coverage/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build / cache
+.cache/
+.tmp/
+.temp/
+.eslintcache
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# TypeScript
+*.tsbuildinfo
+
+# Parcel cache (sometimes used alongside Vite)
+.parcel-cache/
+
+# Optional npm cache
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Compressed / archive files
+*.zip
+*.tar
+*.gz
+*.tgz
+*.bz2
+*.rar
+*.7z
+*.xz
+*.lz
+*.lzma
+*.zst
+
+# Misc
+*.local
